@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -43,9 +43,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="标准化作业管理系统"
+                        android:text="登录你的头条，精彩永不丢失"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="30dp"
+                        android:textSize="23dp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -200,4 +200,4 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
