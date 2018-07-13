@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".layout_ZckLogin" />
+        <activity android:name=".layout_toutiao"></activity>
     </application>
 
 </manifest>
