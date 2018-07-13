@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -28,18 +27,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
             android:layout_weight="1"
-            android:orientation="horizontal"
-            android:layout_gravity="center">
+            android:orientation="horizontal">
 
             <!-- 手机号输入 -->
             <EditText
-                android:background="@drawable/text_bg"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="30dp"
+                android:background="@drawable/text_bg"
                 android:hint="请输入手机号                                            |发送验证码"
                 android:inputType="number"
                 android:maxLength="11"
@@ -53,18 +53,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="1"
-            android:orientation="horizontal"
-            android:layout_gravity="center">
+            android:orientation="horizontal">
 
             <!-- 验证码输入 -->
             <EditText
-                android:background="@drawable/text_bg"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="30dp"
+                android:background="@drawable/text_bg"
                 android:hint="请输入验证码 "
                 android:inputType="number"
                 android:maxLength="11"
@@ -78,14 +78,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:gravity="center">
+
             <Button
-                android:background="@drawable/btn_bg"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="30dp"/>
+                android:layout_marginRight="30dp"
+                android:background="@drawable/btn_bg" />
         </LinearLayout>
 
         <!-- 用户协议和隐私政策 -->
@@ -98,24 +100,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="点击查看"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="“用户协议”"
                 android:textColor="#0000ff"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="和"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="“隐私政策”"
                 android:textColor="#0000ff"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
         </LinearLayout>
 
@@ -123,15 +128,16 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="账号注册"
                 android:textColor="#0000ff"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -139,13 +145,14 @@
                 android:layout_marginRight="10dp"
                 android:text="|"
                 android:textColor="#000000"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="密码登录"
                 android:textColor="#0000ff"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
         </LinearLayout>
 
         <!-- 文字与屏幕下方图标的距离 -->
@@ -166,14 +173,14 @@
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="8dp"
-                android:src="@drawable/logo_one"/>
+                android:src="@drawable/logo_one" />
+
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="8dp"
-                android:src="@drawable/logo_two"/>
+                android:src="@drawable/logo_two" />
         </LinearLayout>
-
 
 
     </LinearLayout>

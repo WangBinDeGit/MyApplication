@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">今日头条Dome</string>
+    <string name="app_name">今日头条</string>
     <string name="saveuserpass">记住密码</string>
     <string name="isoffline">离线</string>
     <string name="logintitle">登  录</string>

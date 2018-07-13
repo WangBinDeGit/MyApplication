@@ -1,8 +1,11 @@
 package com.example.jxd.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+/**
+ * 主界面
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
