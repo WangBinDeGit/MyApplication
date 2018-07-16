@@ -17,52 +17,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="65dp"
             android:text="登录你的头条，精彩永不丢失"
             android:textColor="#000000"
             android:textSize="25dp" />
-
-        <!-- 手机号输入框以及提示 -->
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:layout_marginTop="65dp"-->
-        <!--android:layout_weight="1"-->
-        <!--android:orientation="horizontal">-->
-
-        <!--&lt;!&ndash; 手机号输入 &ndash;&gt;-->
-        <!--<EditText-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:layout_marginBottom="5dp"-->
-        <!--android:layout_marginLeft="25dp"-->
-        <!--android:layout_marginRight="30dp"-->
-        <!--android:background="@drawable/text_bg"-->
-        <!--android:hint="请输入手机号                                            |发送验证码"-->
-        <!--android:inputType="number"-->
-        <!--android:maxLength="11"-->
-        <!--android:paddingLeft="20dp"-->
-        <!--android:paddingRight="20dp"-->
-        <!--android:textColor="#000000" />-->
-
-        <!--</LinearLayout>-->
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginTop="65dp"
+            android:layout_marginTop="45dp"
             android:background="@drawable/shape"
             android:orientation="horizontal">
 
             <!-- 手机号输入 -->
             <EditText
+                android:id="@+id/mobil_login"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_toLeftOf="@+id/coad_line"
+                android:layout_height="50dp"
+                android:layout_alignEnd="@+id/coad_line"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/coad_line"
                 android:background="@null"
                 android:hint="请输入手机号"
                 android:inputType="number"
@@ -71,6 +48,7 @@
                 android:paddingRight="20dp"
                 android:textColor="#000000" />
 
+            <!-- 小竖线 -->
             <View
                 android:id="@+id/coad_line"
                 android:layout_width="1dp"
@@ -80,6 +58,7 @@
                 android:layout_toLeftOf="@+id/sendcode"
                 android:background="@color/gary" />
 
+            <!-- 发送验证码 -->
             <TextView
                 android:id="@+id/sendcode"
                 android:layout_width="wrap_content"
@@ -94,48 +73,54 @@
         <!-- 验证码输入框以及提示 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
             android:orientation="horizontal">
 
             <!-- 验证码输入 -->
             <EditText
+                android:id="@+id/yanzhengma"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="30dp"
-                android:background="@drawable/text_bg"
-                android:hint="请输入验证码 "
+                android:layout_height="50dp"
+                android:background="@null"
+                android:hint="请输入验证码"
                 android:inputType="number"
-                android:maxLength="11"
+                android:maxLength="6"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:textColor="#000000" />
 
         </LinearLayout>
 
+
         <!-- 登录头条按钮 -->
         <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:layout_marginTop="20dp"
             android:gravity="center">
 
             <Button
-                android:layout_width="match_parent"
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
                 android:layout_height="50dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="30dp"
-                android:background="@drawable/btn_bg" />
+                android:text="进 入 头 条"
+                android:textSize="20sp"
+                android:textColor="@color/white1"
+                android:background="@drawable/btnshape" />
         </LinearLayout>
 
         <!-- 用户协议和隐私政策 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -204,7 +189,7 @@
             android:layout_weight="100">
 
         </LinearLayout>
-        <!-- 下方微信、QQ、短信、天翼的 -->
+        <!-- 下方微信、QQ、短信、天翼的LOGO -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
