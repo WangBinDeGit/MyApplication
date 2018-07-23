@@ -8,4 +8,6 @@
     <color name="btn_off">#2F87E1</color>
     <color name="btn_on">#a2a1a1</color>
     <color name="gary">#333333</color>
+    <color name="tab_checked">#ED6A2C</color>
+    <color name="tab_unchecked">#757575</color>
 </resources>

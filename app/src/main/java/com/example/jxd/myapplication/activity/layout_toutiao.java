@@ -1,9 +1,7 @@
-package com.example.jxd.myapplication;
+package com.example.jxd.myapplication.activity;
 
 import android.app.Activity;
-import android.app.VoiceInteractor;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -16,7 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONObject;
+import com.example.jxd.myapplication.R;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
