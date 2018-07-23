@@ -1,4 +1,4 @@
-package com.example.jxd.myapplication;
+package com.example.jxd.myapplication.helper;
 
 import android.annotation.SuppressLint;
 import android.support.design.internal.BottomNavigationItemView;

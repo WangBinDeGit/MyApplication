@@ -10,7 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import com.example.jxd.myapplication.BottomNavigationViewHelper;
+import com.example.jxd.myapplication.helper.BottomNavigationViewHelper;
 import com.example.jxd.myapplication.R;
 import com.example.jxd.myapplication.fragment.TestFragment;
 
