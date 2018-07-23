@@ -1,5 +1,6 @@
 package com.example.jxd.myapplication;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.VoiceInteractor;
 import android.content.Context;
@@ -32,6 +33,7 @@ public class layout_toutiao extends AppCompatActivity implements View.OnClickLis
     private Button btn_login;
     private Context mContext;
     private String usersuccess;
+    @SuppressLint("HandlerLeak")
     private Handler mCountHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
