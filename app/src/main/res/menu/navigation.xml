@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="首页"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="钱包" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        android:title="卡片" />
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="个人" />
+
+</menu>
